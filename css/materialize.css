@@ -8463,3 +8463,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .center-page {
     margin-top: 10%;
 }
+
+.srch-btn {
+    margin-top: 5%;
+}

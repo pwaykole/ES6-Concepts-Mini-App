@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>ES6 Weather app</title>
     <meta charset="UTF-8">
@@ -17,15 +18,17 @@
     </nav>
     <div class="container">
         <div class="row center-page">
-            <form class="col s6 offset-s3">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">location_city</i>
-                        <input id="city_name" type="text" class="validate">
-                        <label for="city_name">City Name</label>
+            <div class="col s6 offset-s3">
+                <form>
+                    <div class="row">
+                        <div class="input-field col m8 s12"> <i class="material-icons prefix">location_city</i>
+                            <input id="city_name" type="text" class="validate">
+                            <label for="city_name">City Name</label>
+                        </div>
+                        <button class="btn waves-effect waves-light col m4 s12 srch-btn" type="submit" name="action">Weather! <i class="material-icons right">cloud</i> </button>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
     <script src="js/jquery-1.11.1.min.js"></script>
