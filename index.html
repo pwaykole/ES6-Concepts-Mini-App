@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ES6 Weather app</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script data-require="traceur@*" data-semver="0.0.0-20140302" src="https://google.github.io/tracuer-compiler/bin/traceur.js"></script>
+    <script data-require="systemjs@*" data-semver="0.18.2-dev" src="https://cdn.rawgit.com/systemjs/systemjs/master/dist/system.js"></script>
+</head>
+
+<body>
+    <nav class="cyan" role="navigation">
+        <div class="nav-wrapper container"> <a id="logo-container" href="#" class="brand-logo black-text">Weather App</a> </div>
+    </nav>
+    <div class="container">
+        <div class="row center-page">
+            <form class="col s6 offset-s3">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">location_city</i>
+                        <input id="city_name" type="text" class="validate">
+                        <label for="city_name">City Name</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        System.import('js/script.js')
+    </script>
+</body>
+
+</html>
